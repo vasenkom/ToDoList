@@ -68,3 +68,8 @@ ul li {
     padding: 5px;
     list-style: none;
 }
+ul li::before {
+    content: "";
+    background-image: url("uncheck.png");
+    height: 20px;
+}
