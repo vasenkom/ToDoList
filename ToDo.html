@@ -8,10 +8,17 @@
     </head>
     <body>
         <div class="main_todo">
-            <h1>To-do list</h1>
+            <div class="date">
+                <i><p id="date"></p></i>
+                <script>
+                    const date = new Date();
+                    document.getElementById('date').innerHTML = date.toLocaleDateString();
+                </script>
+            </div>
+            <h1>To-do list &#128151</h1>
             <form>
                 <input class="input" type="text" placeholder="Add your task">
-                <button type="button">Add</button>
+                <button type="button">+</button>
             </form>
             
         </div>
