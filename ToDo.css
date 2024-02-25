@@ -2,14 +2,36 @@
     box-sizing: border-box;
 }
 body {
+    height: 600px;
     margin: 0;
     padding: 0;
-    background: radial-gradient(white, pink);
+    background: radial-gradient(pink, white);
+    background-repeat: no-repeat;
 }
 .main_todo {
+    background-color: white;
     width: 400px;
-    height: auto;
+    min-height: 200px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 20px;
+    margin-top: 200px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_todo h1 {
+    font-size: 25px;
+    padding: 15px 0 0 15px;
+}
+form {
+    padding: 5px 0 0 20px;
+    position: relative;
+}
+.input {
+    margin-right: 10px;
+    padding: 5px;
+    height: 25px;
+    width: 60%;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.493);
+    
 }
