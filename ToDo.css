@@ -22,6 +22,7 @@ body {
 .date {
     text-align: center;
     border-bottom: 1px solid rgba(128, 128, 128, 0.299);
+    cursor: context-menu;
 }
 #date {
     padding: 15px;
