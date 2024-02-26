@@ -65,6 +65,9 @@ button {
     text-align: center;
     cursor: pointer;
 }
+button:hover {
+    background-color: rgb(250, 203, 211);
+}
 ul li {
     padding: 5px 6px 12px 35px;
     list-style: none;
@@ -88,4 +91,13 @@ ul li::before {
 }
 .checked::before {
     background-image: url("check_new.png");
+}
+ul li span {
+    position: absolute;
+    right: 25px;
+    padding: 5px;
+    color: gray;
+}
+ul li span:hover {
+    color: black;
 }
