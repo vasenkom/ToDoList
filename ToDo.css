@@ -63,13 +63,15 @@ button {
     color: white;
     font-size: 20px;
     text-align: center;
+    cursor: pointer;
 }
 ul li {
     padding: 5px;
     list-style: none;
+    cursor: pointer;
 }
 ul li::before {
     content: "";
     background-image: url("uncheck.png");
-    height: 20px;
+    height: 100px;
 }
