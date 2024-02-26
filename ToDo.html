@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <link rel="stylesheet" href="ToDo.css">
+        
     </head>
     <body>
         <div class="main_todo">
@@ -17,13 +18,14 @@
             </div>
             <h1>To-do list &#128151</h1>
             <form>
-                <input class="input" type="text" placeholder="Add your task">
-                <button type="button">+</button>
+                <input class="input" type="text" placeholder="Add your task" id="input_box">
+                <button type="button" onclick="addTask()">+</button>
             </form>
             <ul id="list_container">
-                <li class="checked">Task 1</li>
-                <li>Task 2</li>
+                
             </ul>
         </div>
+
+        <script src="ToDo.js"></script>
     </body>
 </html>
