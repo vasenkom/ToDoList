@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    height: 600px;
+    height: 450px;
     margin: 0;
     padding: 0;
     background: radial-gradient(pink, white);
@@ -14,7 +14,7 @@ body {
     min-height: 250px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 150px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
