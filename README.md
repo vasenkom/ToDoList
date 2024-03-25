@@ -17,4 +17,4 @@ Welcome to my first JavaScript project! This is a simple To-Do list application 
 
 ## Demo
 
-You can view a live demo of the To-Do List application [here](https://codepen.io/vasenkom/pen/KKEOooq) on my CodePen profile.
+You can view a live demo of the To-Do List application [here](https://raw.githack.com/vasenkom/ToDoList/main/Index.html) on my CodePen profile.
